@@ -10,7 +10,7 @@ class Ground {
         }
 
        
-        this.body = Bodies.rectangle(x, y, height, width, options);
+        this.body = Bodies.rectangle(x, y, width, height, options);
         World.add(world, this.body);
         
 
